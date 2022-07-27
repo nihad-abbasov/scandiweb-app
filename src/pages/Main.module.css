@@ -1,0 +1,25 @@
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.anima {
+    animation-name: example;
+    animation-duration: 4s;
+}
